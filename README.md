@@ -13,18 +13,18 @@ File name: `setup_project.sh`
 
 Create a shell script that sets up a directory structure for a bioinformatics project. Your script should:
 
-1. Create a main project directory called "bioinformatics_project".
-2. Inside the main directory, create the following subdirectories:
+[x] 1. Create a main project directory called "bioinformatics_project".
+[x] 2. Inside the main directory, create the following subdirectories:
    - `data`
    - `scripts`
    - `results`
-3. In the scripts directory, create empty Python files named:
+[x] 3. In the scripts directory, create empty Python files named:
    - `generate_fasta.py`
    - `dna_operations.py`
    - `find_cutsites.py`
-4. In the results directory, create an empty file named "cutsite_summary.txt".
-5. In the data directory, create an empty file named "random_sequence.fasta".
-6. Create a README.md file in the main project directory with a brief description of the project structure.
+[x] 4. In the results directory, create an empty file named "cutsite_summary.txt".
+[x] 5. In the data directory, create an empty file named "random_sequence.fasta".
+[x] 6. Create a README.md file in the main project directory with a brief description of the project structure.
 
 Tips:
 - Use `mkdir -p` to create directories and their parents if they don't exist.
