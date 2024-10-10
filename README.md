@@ -134,17 +134,17 @@ In molecular biology, restriction enzymes cut DNA at specific sequences called r
 An example:
 - Take cut site sequence "G|GATCC" for BamHI:
 - In the sequence dna="AAGG|GATCCTT", the cut site starts at index 4
-- The enzyme would cut between G and T, resulting in "AAGG" and "GATCCTT".
+- The enzyme would cut between G and G, resulting in "AAGG" and "GATCCTT".
 - So the cut would happen before dna[4], which we would count as it's location.
 
 Create a Python script that finds pairs of restriction enzyme cut sites that are 80-120 kilobase pairs (kbp) apart in a given FASTA file. Your script should:
 
-1. Accept two arguments: the FASTA file path (data/random_sequence.fasta) and a cut site sequence (e.g., "G|GATCC")
-2. Read the FASTA file and save the DNA sequence to a variable omitting whitespace.
-3. Find all occurrences of the cut site (specified below) in the DNA sequence.
-4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
-5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
-6. Save a summary of the results in the results directory as "distant_cutsite_summary.txt".
+[x] 1. Accept two arguments: the FASTA file path (data/random_sequence.fasta) and a cut site sequence (e.g., "G|GATCC")
+[x] 2. Read the FASTA file and save the DNA sequence to a variable omitting whitespace.
+[x] 3. Find all occurrences of the cut site (specified below) in the DNA sequence.
+[x] 4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
+[x] 5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
+[x] 6. Save a summary of the results in the results directory as "distant_cutsite_summary.txt".
 
 Tips:
 - When running the script, put the cut site sequence in quotes to prevent issues with the pipe character, e.g., "G|GATCC".
