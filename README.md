@@ -61,9 +61,9 @@ FASTA format is a text-based format for representing nucleotide or peptide seque
 
 Create a Python script that generates a random DNA sequence and saves it in FASTA format. Your script should:
 
-[x] 1. Generate a random DNA sequence of 1 million base pairs (using A, C, G, T).
-[x] 2. Format the sequence with 80 base pairs per line.
-[x] 3. Save the sequence in FASTA format in the "data" directory, with the filename "random_sequence.fasta".
+1. Generate a random DNA sequence of 1 million base pairs (using A, C, G, T).
+2. Format the sequence with 80 base pairs per line.
+3. Save the sequence in FASTA format in the "data" directory, with the filename "random_sequence.fasta".
 
 Tips:
 - Use Python's `random` module to generate random DNA sequences.
@@ -91,12 +91,12 @@ File name: `dna_operations.py`
 
 Create a Python script that performs various operations on DNA sequences. Your script should:
 
-[x] 1. Accept a DNA sequence as a command-line argument.
-[x] 2. Implement the following functions:
+1. Accept a DNA sequence as a command-line argument.
+2. Implement the following functions:
    - `complement(sequence)`: Returns the complement of a DNA sequence (A -> T, C -> G, G -> C, T -> A).
    - `reverse(sequence)`: Returns the reverse of a sequence (e.g. "CCTCAGC" -> "CAGCCTC").
    - `reverse_complement(sequence)`: Returns the reverse complement of a DNA sequence (e.g. "CCTCAGC" -> "GAGCTTG"); i.e. the reverse of the complement (apply `complement` then `reverse`, or vice versa).
-[x] 3. For the input sequence, print:
+3. For the input sequence, print:
    - The original sequence
    - Its complement
    - Its reverse
@@ -139,12 +139,12 @@ An example:
 
 Create a Python script that finds pairs of restriction enzyme cut sites that are 80-120 kilobase pairs (kbp) apart in a given FASTA file. Your script should:
 
-[x] 1. Accept two arguments: the FASTA file path (data/random_sequence.fasta) and a cut site sequence (e.g., "G|GATCC")
-[x] 2. Read the FASTA file and save the DNA sequence to a variable omitting whitespace.
-[x] 3. Find all occurrences of the cut site (specified below) in the DNA sequence.
-[x] 4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
-[x] 5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
-[x] 6. Save a summary of the results in the results directory as "distant_cutsite_summary.txt".
+1. Accept two arguments: the FASTA file path (data/random_sequence.fasta) and a cut site sequence (e.g., "G|GATCC")
+2. Read the FASTA file and save the DNA sequence to a variable omitting whitespace.
+3. Find all occurrences of the cut site (specified below) in the DNA sequence.
+4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
+5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
+6. Save a summary of the results in the results directory as "distant_cutsite_summary.txt".
 
 Tips:
 - When running the script, put the cut site sequence in quotes to prevent issues with the pipe character, e.g., "G|GATCC".
