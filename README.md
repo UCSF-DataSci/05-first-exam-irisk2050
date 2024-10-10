@@ -34,7 +34,7 @@ Tips:
 
 ### Task
 
-Run the script and check the output (include all files in your assignmentrepository).
+[x] Run the script and check the output (include all files in your assignmentrepository).
 
 ### Example usage
 ```
