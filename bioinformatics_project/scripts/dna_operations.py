@@ -1,4 +1,3 @@
-import os
 import argparse
 
 # 2. Implement the following functions:
