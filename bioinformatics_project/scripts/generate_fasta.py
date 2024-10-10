@@ -20,9 +20,10 @@ DNA_wrapped = textwrap.wrap(DNA, width = 80)
 
 if __name__ == "__main__":
     try:
-        with open('/Users/iriskim/Desktop/05-first-exam-irisk2050/bioinformatics_project/data/random_sequence.fasta', 'a') as f:
+        with open('/Users/iriskim/Desktop/05-first-exam-irisk2050/bioinformatics_project/data/random_sequence.fasta', 'w') as f:
             f.write(f">Random DNA sequence of length 1000000\n")
-            f.write(DNA_wrapped)
-        print(f"Successfully saved random DNA sequence to random_sequence.fasta.")
+            for i in range(len(DNA_wrapped)):
+                f.write(f"{DNA_wrapped[i]}\n")
+        print(f"Random DNA sequence generated and saved to ./bioinformatics_project/data/random_sequence.fasta.")
     except OSError:
         print("An OSError occurred!")
