@@ -61,9 +61,9 @@ FASTA format is a text-based format for representing nucleotide or peptide seque
 
 Create a Python script that generates a random DNA sequence and saves it in FASTA format. Your script should:
 
-1. Generate a random DNA sequence of 1 million base pairs (using A, C, G, T).
-2. Format the sequence with 80 base pairs per line.
-3. Save the sequence in FASTA format in the "data" directory, with the filename "random_sequence.fasta".
+[x] 1. Generate a random DNA sequence of 1 million base pairs (using A, C, G, T).
+[x] 2. Format the sequence with 80 base pairs per line.
+[x] 3. Save the sequence in FASTA format in the "data" directory, with the filename "random_sequence.fasta".
 
 Tips:
 - Use Python's `random` module to generate random DNA sequences.
@@ -91,12 +91,12 @@ File name: `dna_operations.py`
 
 Create a Python script that performs various operations on DNA sequences. Your script should:
 
-1. Accept a DNA sequence as a command-line argument.
-2. Implement the following functions:
+[x] 1. Accept a DNA sequence as a command-line argument.
+[x] 2. Implement the following functions:
    - `complement(sequence)`: Returns the complement of a DNA sequence (A -> T, C -> G, G -> C, T -> A).
    - `reverse(sequence)`: Returns the reverse of a sequence (e.g. "CCTCAGC" -> "CAGCCTC").
    - `reverse_complement(sequence)`: Returns the reverse complement of a DNA sequence (e.g. "CCTCAGC" -> "GAGCTTG"); i.e. the reverse of the complement (apply `complement` then `reverse`, or vice versa).
-3. For the input sequence, print:
+[x] 3. For the input sequence, print:
    - The original sequence
    - Its complement
    - Its reverse

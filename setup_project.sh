@@ -1,4 +1,4 @@
-# Set current directory to x.
+## Set current directory to x.
 cd /Users/iriskim/Desktop/05-first-exam-irisk2050
 
 # 1. Create the main project directory called "bioinformatics_project".
